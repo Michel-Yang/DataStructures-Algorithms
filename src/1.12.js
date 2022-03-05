@@ -1,3 +1,9 @@
+/* 对象通过如下方式创建
+定义包含属性和方法声明的构造函数
+并在构造函数后紧跟方法的定义 
+this关键字用来将方法和属性绑定到一个对象的实例上
+*/
+
 function Checking(amount){
     this.balance=amount;
     this.deposit=deposit;
